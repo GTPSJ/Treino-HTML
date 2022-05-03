@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PR-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<!-- adicição da imagem de fundo ao corpo da página por estética-->
+<body background="https://i.pinimg.com/564x/4f/59/41/4f5941edc42dcbd89c800222f5c03bb7.jpg">
+
+    <!-- atribuição do titulo ao formulario assim como cor de fonte-->
+    <H1 style="color:rgb(114, 10, 45);">Formulario de cadastro</H1>
+    <!--inicio do formulario com o comando form-->
+    <form>
+        <!--criação dos campos de preenchimento -->
+        <label for="FirstNome"><b> Primeiro Nome: </b></label><br>
+        <input type="Text" id="FirstNome" name=" FirstNome" placeholder ="digite seu primeiro nome" > <br><br>
+
+        <label for="LastNome"><b> Sobrenome: </b></label><br>
+        <input type="Text" id="LastNome" name=" LastNome" placeholder ="digite seu sobrenome" > <br><br>
+
+        <!--criação de campo número -->
+        <label for="CPF"><b> CPF: </b></label><br>
+        <input type="Number" id="CPF" name=" CPF" placeholder ="Informe o seu CPF" > <br><br>
+
+        <!--criação de campo email -->
+        <label for="email"><b> E-mail: </b></label><br>
+        <input type="email" id="email" name=" email" placeholder ="Informe um e-mail valido"> <br><br>
+
+        <!--criação de campo data-->
+        <label for="DataNascimento"><b> Data de Nascimento: </b></label><br>
+        <input type="date" id="DataNascimento" name=" DataNascimento" > <br><br>
+
+        <label for="NomePai"><b> Nome do Pai: </b></label><br>
+        <input type="text" id="NomePai" name=" NomePai" > <br><br>
+
+        <label for="NomeMae"><b> Nome da Mãe: </b></label><br>
+        <input type="text" id="NomeMae" name=" NomeMae" > <br><br>
+
+        <label for="Phone"><b> Telefone: </b></label><br>
+        <input type="number" id="Phone" name=" phone" > <br><br>
+
+        <!--criação de lista de opção -->
+        <label for="Origem"><b> origem: </b></label><br>
+        <select id="Origem" name="origem">
+            <option value="0"> -select-</option>
+            <option value="1"> Web</option>
+            <option value="2"> Jornal</option>
+            <option value="3"> Rede Social</option>
+            <option value="4"> Radio</option>
+            <option value="5"> TV</option>
+        </select><br><br>
+
+        <!--criação da caixa de seleção multipla-->
+        <p><b>Concordo com os termos de uso. </b> </p>
+    <input type="checkbox" name="opcoes" value="1"> concordo com os termos de uso. <BR>
+    <input type="checkbox" name="opcoes" value="1">aceito o
+    envio de email com informações. <BR> <BR>
+
+        <!--criação dos campos numero -->
+        <input  type="submit" value="Submit" > <BR> <BR>
+
+    </form>
+    
+</body>
+</html>
