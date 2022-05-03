@@ -1,0 +1,180 @@
+<!-- lista não ordenada com direcionamento a nova pagina -->
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aTIVIDADE DE CONTINUAÇÃO</title>
+</head>
+<body>
+<H1>TOP 10 SITES</H1>
+
+<UL>
+    <LI><a href="https://www.netflix.com/br/login" target="_blank"> Netflix </a></LI>
+    <LI><a href="https://www.starz.com/br/pt/" target="_blank"> Starz </a></LI>
+    <LI><a href="https://www.primevideo.com/?_encoding=UTF8&language=pt_br" target="_blank"> Prime Video </a></LI>
+    <LI><a href="https://play.hbomax.com/" target="_blank"> HBO </a></LI>
+    <LI><A HREF="https://www.disneyplus.com/login" target="_blank"> Disney Plus </A></LI>
+    <LI><a href="https://www.youtube.com/" target="_blank"> YouTube </a></LI>
+    <LI><a href="https://www.instagram.com/" target="_blank"> Instagram </LI>
+    <LI><a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"> Whatsapp </a></LI>
+    <LI><a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank"> Facebook </a></LI>
+    <LI><a href="https://discord.com/" target="_blank"> Discord </a></LI>
+
+</UL>
+<!-- ____________________________________________________________________________________________________________________-->
+    
+    <h1>Ancoragem Links</h1>
+   
+<UL>
+    <LI> <a href="../exercicio3/historia.html" target="_self" >Historia </a> </LI>
+    <LI><a href="../exercicio3/marcas.html" target="_self"> MARCAS (TAGS) </a></LI>
+    <LI><a href="../exercicio3/edicao.html" target="_self"> Edição de documentos HTML </a></LI>
+</UL>
+<br><br>
+
+<!-- ____________________________________________________________________________________________________________________-->
+<!-- Primeira página da ancoragem (historia)-->
+
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HISTÓRIA</title>
+</head>
+<body>
+
+    <H1>História </H1>
+
+    Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como o HTTP) em uma estação 
+    NeXTcube usando o ambiente de desenvolvimento NeXTSTEP. Na época a linguagem não era uma especificação, mas uma coleção 
+    de ferramentas para resolver um problema de Tim: a comunicação e disseminação das pesquisas entre ele e seu grupo de colegas. 
+    Sua solução, combinada com a então emergente internet pública (que tornaria-se a Internet) ganhou atenção mundial. <strong> MUITO TEXTO AQUI</strong>
+    
+</body>
+</html>
+
+<!-- ____________________________________________________________________________________________________________________-->
+<!-- segunda página da ancoragem (MARCAS (TAGS) )-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcas </title>
+</head>
+<body>
+    <h1> Marcas (Tags)</h1>
+
+    Todo documento HTML possui marcadores (do inglês: tags), palavras entre parênteses angulares 
+    (chevron) ( < e > ); esses marcadores são os comandos de formatação da linguagem. Um elemento é 
+    formado por um nome de marcador (tag), atributos, valores e filhos (que podem ser outros elementos ou texto). 
+    Os atributos modificam os resultados padrões dos elementos e os valores cracterizam essa mudança. 
+    Exemplo de um elemento simple (não possui filhos): <strong>MUITO TEXTO AQUI</strong>
+</body>
+</html>
+
+<!-- ____________________________________________________________________________________________________________________-->
+<!-- Terceira página da ancoragem (Edição de documentos HTMl )-->
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edicao</title>
+</head>
+<body>
+
+    <H1> Edição de documentos HTML</H1>
+
+    Os documentos em HTML são arquivos de texto simples que podem ser criados e editados em qualquer editor de textos comum, como o Bloco de Notas do Windows, ou o TextEdit, do Macintosh. Para facilitar a produção de documentos, no mercado existem editores HTML específicos, com recursos sofisticados, que facilitam a realização de tarefas repetitivas, inserção de objetos, elaboração de tabelas e outros recursos . Basicamente dividem-se em dois tipos: <strong> MUITO TEXTO AQUI</strong>
+</body>
+</html>
+
+<!-- ____________________________________________________________________________________________________________________-->
+<BR></BR>
+
+<!-- tabela de fundo colorido, mesclagem de coluna e mesclagem de campo -->
+
+<!-- iniciando tabela, adicionando bordas e estabelecendo dimensões fixas da tabela -->
+
+    <table BORDER="1" WIDTH="600" HEIGHT="300">
+        <tr>
+        <!-- mesclagem dos campos da linha -->
+            <TD COLSPAN="2">ABC</TD>
+            <tD COLSPAN="2">DEF </td>
+
+        </tr>
+        <tr>
+        <!-- mesclagem dos campos da coluna, e adicionado cor de fundo nos campos respectivamente -->
+        
+            <TD rowspan="2" style="background-color:rgb(243, 9, 9);">123(FUNDO VERMELHO)</TD>
+            <td style="background-color:rgb(245, 241, 10);">A1 (FUNDO AMARELO) </td>
+            <td style="background-color:rgb(13, 162, 231);">B1(FUNDO AZUL) </td>
+            <td ROWSPAN="2" style="background-color:rgb(243, 9, 9);">456(FUNDO VERMELHO) </td>
+            
+        </tr>
+        <TR>
+        <!-- adicionando cor de fundo nos campos -->
+            <TD style="background-color:rgb(13, 162, 231);">C1(FUNDO AZUL)</TD>
+            <TD style="background-color:rgb(245, 241, 10);">D1(FUNDO AMARELO)</TD>
+
+            
+
+        </TR>
+        <TR>
+            <TD>H1</TD>
+            <TD>H2</TD>
+            <!-- mesclagem dos campos da linha -->
+            <TD COLSPAN="2"> H123 </TD>
+        </TR>
+    </table>
+     <!-- fim da tabela -->
+    <!-- ____________________________________________________________________________________________________________________-->
+<BR></BR>
+
+ <!-- imagem inserida com dimensões altura 780 e largura 1080 -->
+    <h1>The Table </h1>
+     <!-- Endereço da imagem -->
+    <IMG src="https://www.meublesrd.com/media/catalog/product/9/0/902775-001.jpg?width=690&height=473&canvas=690:
+    473&quality=80&fit=bounds"  WIDTH="1080" HEIGHT="780"> <!-- estabelecendo dimensões -->
+        
+  <!-- ____________________________________________________________________________________________________________________-->
+<BR></BR>
+        <!-- exemplo de lista ordenada, com lista não ordenada -->
+            <h2> lista de alunos</h2>
+            
+    <OL>                  <!-- inicio da lista ordenada-->
+        <LI>Lucas Santana 
+            <ul>           <!-- lista ñ oredenada-->
+                <LI>Matemática</LI> 
+                <li>Quimica</li>
+                <li>Física</li>
+            </ul>
+        </LI>            
+        <LI>Gabriel Torres
+            <ul>          <!-- lista ñ oredenada-->
+                <LI>Filosofia</LI>
+                <li>Sociologia</li>
+                <li>Geografia</li>
+            </ul>
+        </LI>
+        <LI>Fernando Pessoa     
+            <ul>          <!-- lista ñ oredenada-->
+                <LI>agricultura</LI>
+               
+            </ul>
+        </LI>
+    </OL>       <!-- Fim da lista oredenada-->
+
+
+</body>
+</html>
