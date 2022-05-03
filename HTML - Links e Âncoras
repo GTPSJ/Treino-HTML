@@ -1,0 +1,162 @@
+<!--PAGINA DDE ACESSO 1 -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina 01</title>
+</head>
+<body>
+    <h1>Página 01</h1>
+    <p>Essa é a pagina incial</p> <br>
+    
+    <p>Acesse meu trailhead pelo <a href="https://trailblazer.me/id" target="_blank" > Link</a></p>
+    <p>Acesse segunda pagina
+        
+        <a href="pagina02.html"
+        target="_blank" rel="next"> aqui</a></p>
+
+        <p>Acesse terceira pagina <a href="../Exercicio_Html2/atualizacao/pagina03.html"
+            target="_self" rel="next"> aqui</a></p>
+
+            <p>Acesse quarta pagina <a href="../Exercicio_Html2/atualizacao/pagina04.html"
+                target="_self" rel="next"> aqui</a></p>
+
+                <p>Acesse quinta pagina <a href="../Exercicio_Html2/soulCode/pagina05.html"
+                    target="_self" rel="next"> aqui</a></p>
+                    
+   
+<!-- ________________________________________________________________________________________________-->   
+   <!-- PAGINA DE ACESSO 2 -->
+   
+   <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina 2</title>
+</head>
+<body>
+    <h1>pagina 2</h1>
+    <p>Essa é a segunda pagina</p> <br>
+    acesse o site 
+    <a href="https://www.sbt.com.br/" target="_blank" >para noticias da emissora sbt</a>
+    
+    <p>Acesse a primeira pagina <a href="Index.html"
+        target="_self" rel="prev"> aqui</a></p>
+
+    <p>Acesse terceira pagina <a href="../Exercicio_Html2/atualizacao/pagina03.html"
+        target="_self" rel="next"> aqui</a></p>
+
+        <p>Acesse quarta pagina <a href="../Exercicio_Html2/atualizacao/pagina04.html"
+            target="_self" rel="next"> aqui</a></p>
+            
+            <p>Acesse quinta pagina <a href="../Exercicio_Html2/soulCode/pagina05.html"
+                target="_self" rel="next"> aqui</a></p>
+
+</body>
+</html>
+
+
+<!-- ________________________________________________________________________________________________-->
+<!-- PAGINA DE ACESSO 3 DENTRO DA PASTA (ATUALIZAÇÃO) -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina 3</title>
+</head>
+<body>
+    <h1>Pagina 3</h1>
+</body>
+    <p> essa é a terceira pagina</p>
+
+        <p>acesse o site para ter noticias da emissora <a href="https://www.globo.com/" target="_self">globo</a> </p>
+
+    <p>Acesse a primeira pagina <a href="../Index.html"
+        target="_self" rel="prev"> aqui</a></p>
+
+    <p>Acesse segunda pagina <a href="../pagina02.html"
+        target="_self" rel="prev"> aqui</a></p>
+
+        <p>Acesse quarta pagina <a href="pagina04.html"
+            target="_self" rel="next"> aqui</a></p>
+            
+            <p>Acesse quinta pagina <a href="../soulCode/pagina05.html"
+                target="_self" rel="next"> aqui</a></p>
+
+</body>
+</html>
+
+<!-- ________________________________________________________________________________________________-->
+<!-- PAGINA DE ACESSO 4 DENTRO DA PASTA (ATUALIZAÇÃO) -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina 4</title>
+</head>
+<body>
+    
+    <h1>pagina 4</h1>
+    <p> essa é a quarta pagina</p>
+
+    <p>acesse <a href="https://www.hbomax.com/" target="_self" >HBO para login</a></p>
+
+    <p>Acesse a primeira pagina <a href="../Index.html"
+        target="_self" rel="prev"> aqui</a></p>
+
+    <p>Acesse segunda pagina <a href="../pagina02.html"
+        target="_self" rel="prev"> aqui</a></p>
+
+        <p>Acesse terceira pagina <a href="pagina03.html"
+            target="_self" rel="prev"> aqui</a></p>
+            
+            <p>Acesse quinta pagina <a href="../soulCode/pagina05.html"
+                target="_self" rel="next"> aqui</a></p>
+</body>
+</html>
+
+
+<!-- ________________________________________________________________________________________________-->
+<!-- PAGINA DE ACESSO 5 DENTRO DA PASTA ( SoulCode) -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina 5</title>
+</head>
+<body>
+    <h1>pagina 5</h1>
+    <p>essa é a quinta pagina</p>
+    
+    <p>Acesse <a href="https://www.netflix.com/br/login" target="_self"> Netflix </a></p>
+
+    <p>Acesse a primeira pagina <a href="../Index.html"
+        target="_self" rel="prev"> aqui</a></p>
+
+    <p>Acesse segunda pagina <a href="../pagina02.html"
+        target="_self" rel="prev"> aqui</a></p>
+        
+        <p>Acesse terceira pagina <a href="../atualizacao/pagina03.html"
+            target="_self" rel="prev"> aqui</a></p>
+
+        <p>Acesse quarta pagina <a href="../atualizacao/pagina04.html"
+            target="_self" rel="prev"> aqui</a></p>
+            
+
+</body>
+</html>
