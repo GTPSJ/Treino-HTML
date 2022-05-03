@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE HTML</title>
+</head>
+<body>
+    exemplos de cabeçalho
+
+<b><h1> header 1</h1>
+<h2> header 2</h2>
+<h3> header 3</h3>
+<h4> header 4</h4>
+<h5> header 5</h5>
+<h6> header 6</h6></b>
+
+<b>Algumas marcas (em blod por exemplo!!!)</b><br></br>
+
+<i>Este parágrafo esta em itálico</i> <br></br>
+<u>Paragráfo sublinhado</u> <br></br>
+<strong>Utilizando a marca big</strong> <small>e a marca small</small> <br></br>
+mais uma marca que permite apresentar expressões do genero x<sup>2</sup> e x<sub>2</sub> <br></br>
+Exemplo de caracteres especiais <br>
+á à ã â ç è õ </br><br></br>
+
+<h1>Café Starbuzz</h1><br></br>
+   <h3>Mistura de Casa, R$1,49</h3>
+   <p>  Uma mistura suave e delicada de cafe do México, Bolívia e Guatemala.</p><br>
+
+   <h3>Café arábico com leite, R$ 2,35</h3>
+   <p>Expresso, leite fervido e xarope de chocolate.</p><br>
+   <h3>Cappuccino, R$ 1,89</h3>
+<p>Uma mistura de expresso, leite fervido e espuma.</p><br>
+<h3>Chá Chai, R$ 1,85</h3>
+<p> Uma bebida condimentada com chá preto, especiarias, leite e mel.</p><br>
+<br></br>
+
+<center><h1>Lorem Impsum </h1></center>
+<center><h5><i>"neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."" </i> </h5>
+<h6><i>"Não ha quem goste de dor, que a procure e a queira ter, simplesmente porque é dor..."</i></h6></center><br>
+__________________________________________________________________________________________________________________________________________________________________
+<h2>O que é o Lorem Ipsum?</h2>
+<p>O <b>Lorem Ipsum</b> é um texto modelo da industria tipográfica e de impressão. O Lorem Ipsum trm vindo a ser o texto padrão usado por todas estas industrias desde o ano de 1500, quando uma mistura de caracteres de um texto para criar um especime de um livro.</p> 
+    
+</body>
+</html>
